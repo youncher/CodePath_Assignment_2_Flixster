@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CodePath_Assignment_1_Flixster</string>
+    <string name="movie_poster_general_description">Movie Poster Image</string>
 </resources>
