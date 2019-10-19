@@ -16,11 +16,13 @@ import okhttp3.Headers;
 
 public class Movie {
 
+    private String backdropPath;
     private String posterPath;
     private String title;
     private String overview;
 
     public Movie(JSONObject jsonObject) throws JSONException {
+        backdropPath = jsonObject.getString("backdrop_path");
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
@@ -34,6 +36,10 @@ public class Movie {
         }
 
         return movies;
+    }
+
+    public String getBackdropPath() {
+        return String.format("https://image.tmdb.org/t/p/w342%s", backdropPath);
     }
 
     public String getPosterPath() {
