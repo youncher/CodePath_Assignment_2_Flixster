@@ -1,4 +1,4 @@
-package com.codepath_assignment_1_flixster;
+package com.codepath_assignment_2_flixster;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,8 +9,9 @@ import android.util.Log;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
-import com.codepath_assignment_1_flixster.adapters.MovieAdapter;
-import com.codepath_assignment_1_flixster.models.Movie;
+import com.codepath_assignment_2_flixster.adapters.MovieAdapter;
+import com.codepath_assignment_2_flixster.models.Movie;
+import com.codepath_assignment_2_flixster.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

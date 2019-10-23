@@ -1,4 +1,4 @@
-package com.codepath_assignment_1_flixster.models;
+package com.codepath_assignment_2_flixster.models;
 
 import android.util.Log;
 

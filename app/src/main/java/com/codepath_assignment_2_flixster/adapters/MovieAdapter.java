@@ -1,4 +1,4 @@
-package com.codepath_assignment_1_flixster.adapters;
+package com.codepath_assignment_2_flixster.adapters;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.codepath_assignment_1_flixster.R;
-import com.codepath_assignment_1_flixster.models.Movie;
+import com.codepath_assignment_2_flixster.R;
+import com.codepath_assignment_2_flixster.models.Movie;
 
 import java.util.List;
 

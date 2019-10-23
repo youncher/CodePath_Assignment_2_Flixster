@@ -1,4 +1,4 @@
-package com.codepath_assignment_1_flixster;
+package com.codepath_assignment_2_flixster;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.codepath_assignment_1_flixster", appContext.getPackageName());
+        assertEquals("com.codepath_assignment_2_flixster", appContext.getPackageName());
     }
 }

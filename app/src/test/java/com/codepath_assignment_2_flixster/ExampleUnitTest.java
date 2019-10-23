@@ -1,4 +1,4 @@
-package com.codepath_assignment_1_flixster;
+package com.codepath_assignment_2_flixster;
 
 import org.junit.Test;
 
