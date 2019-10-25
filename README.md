@@ -9,8 +9,8 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 
 #### REQUIRED (10pts)
 
-- [ ] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [ ] Allow video posts to be played in full-screen using the YouTubePlayerView.
+- [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 #### BONUS
 
@@ -22,13 +22,9 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 - [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
 
 ### App Walkthough GIF
+App now supports movie details with YouTube player!
 
-(This will be added later)
-
-<img src="my_GIF_file" width=250><br>
-
-### Notes
-
+<img src='Details_Demo.gif' title='Video Details Walkthrough' width='250' alt='Video Details Video Walkthrough' />
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing

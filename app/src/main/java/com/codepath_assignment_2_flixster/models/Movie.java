@@ -26,8 +26,6 @@ public class Movie {
     String overview;
     double rating;
 
-
-
     // empty constructor needed by the Parceler library
     public Movie() {}
 

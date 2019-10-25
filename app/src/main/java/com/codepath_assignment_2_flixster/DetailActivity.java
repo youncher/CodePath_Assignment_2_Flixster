@@ -59,6 +59,7 @@ public class DetailActivity extends YouTubeBaseActivity {
                     if (results.length() == 0) {
                         return;
                     }
+                    // TODO that site is "YouTube", if not display placeholder image instead of video
                     String youtubeKey = results.getJSONObject(0).getString("key");
                     Log.d(TAG, youtubeKey);
                     initializeYouTube(youtubeKey);
