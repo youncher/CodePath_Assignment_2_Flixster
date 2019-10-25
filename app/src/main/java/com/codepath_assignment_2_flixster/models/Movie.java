@@ -20,18 +20,20 @@ public class Movie {
 
     // fields must be package private for Parceler
     String backdropPath;
+    int movieId;
     String posterPath;
     String title;
     String overview;
     double rating;
 
-    // empty constructor needed by the Parceler library
-    public Movie() {
 
-    }
+
+    // empty constructor needed by the Parceler library
+    public Movie() {}
 
     public Movie(JSONObject jsonObject) throws JSONException {
         backdropPath = jsonObject.getString("backdrop_path");
+        movieId = jsonObject.getInt("id");
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
@@ -50,6 +52,10 @@ public class Movie {
 
     public String getBackdropPath() {
         return String.format("https://image.tmdb.org/t/p/w342%s", backdropPath);
+    }
+
+    public int getMovieId() {
+        return movieId;
     }
 
     public String getPosterPath() {
